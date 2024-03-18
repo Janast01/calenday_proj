@@ -24,7 +24,7 @@
             height: 100%;
             width: 100%;
             font-family: 'Roboto', sans-serif; /* Change the font family */
-            background-color: #f8f9fa; /* Light gray background color */
+            background-color: 'blue'; /* Light gray background color */
         }
 
         .btn-info.text-light:hover,

@@ -4,8 +4,8 @@
   var l0 = {
     code: 'af',
     week: {
-      dow: 1, 
-      doy: 4, 
+      dow: 1, // Maandag is die eerste dag van die week.
+      doy: 4, // Die week wat die 4de Januarie bevat is die eerste week van die jaar.
     },
     buttonText: {
       prev: 'Vorige',
@@ -25,8 +25,8 @@
   var l1 = {
     code: 'ar-dz',
     week: {
-      dow: 0, 
-      doy: 4, 
+      dow: 0, // Sunday is the first day of the week.
+      doy: 4, // The week that contains Jan 1st is the first week of the year.
     },
     direction: 'rtl',
     buttonText: {
@@ -38,17 +38,17 @@
       day: 'يوم',
       list: 'أجندة',
     },
-    weekText: "week",
-    allDayText: "all day",
-    moreLinkText: "other"
-    noEventsText: 'Any events to display.'
+    weekText: 'أسبوع',
+    allDayText: 'اليوم كله',
+    moreLinkText: 'أخرى',
+    noEventsText: 'أي أحداث لعرض',
   };
 
   var l2 = {
     code: 'ar-kw',
     week: {
-      dow: 0, 
-      doy: 12, 
+      dow: 0, // Sunday is the first day of the week.
+      doy: 12, // The week that contains Jan 1st is the first week of the year.
     },
     direction: 'rtl',
     buttonText: {

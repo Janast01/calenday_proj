@@ -6,9 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scheduling</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Calendar | ProjZero</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fullcalendar/lib/main.min.css">
     <script src="./js/jquery-3.6.0.min.js"></script>
@@ -23,66 +22,22 @@
         body {
             height: 100%;
             width: 100%;
-            font-family: 'Roboto', sans-serif; /* Change the font family */
-            background-color: blue; /* Light gray background color */
+            font-family: Apple Chancery, cursive;
         }
 
         .btn-info.text-light:hover,
         .btn-info.text-light:focus {
             background: #000;
         }
-
-        table,
-        tbody,
-        td,
-        tfoot,
-        th,
-        thead,
-        tr {
+        table, tbody, td, tfoot, th, thead, tr {
             border-color: #ededed !important;
             border-style: solid;
             border-width: 1px !important;
-        }
-
-        /* Alternate design */
-        .card-header,
-        .modal-header {
-            background-color: #343a40; /* Dark background color */
-            color: #fff; /* White text color */
-            font-family: 'Arial', sans-serif; /* Change font family */
-        }
-
-        .cardt,
-        .modal-content {
-            border-radius: 10px; /* Rounded corners */
-            background-color: #fff; /* White background color */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
-        }
-
-        .card-footer,
-        .modal-footer {
-            background-color: #f8f9fa; /* Light background color */
-            border-top: none; /* No top border */
-        }
-
-        .modal-title {
-            font-weight: bold; /* Bold title text */
-        }
-
-        .modal-body {
-            font-size: 16px; /* Larger font size */
-        }
-
-        .modal-body dl dt,
-        .modal-body dl dd {
-            margin-bottom: 10px; /* Increased margin between title and description */
         }
     </style>
 </head>
 
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient" id="topNavBar">
-    </nav>
     <div class="container py-5" id="page-container">
         <div class="row">
             <div class="col-md-9">
